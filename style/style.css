@@ -1,0 +1,11 @@
+#nome{
+    text-align: center;
+    color: blue;
+}
+.borda{
+    border: 1px groove black;
+    padding: 10px;
+}
+#foto{
+    text-align: center;
+}
