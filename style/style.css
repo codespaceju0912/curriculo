@@ -2,10 +2,29 @@
     text-align: center;
     color: blue;
 }
-.borda{
-    border: 1px groove black;
-    padding: 10px;
+.minhadiv /*para o conteudo*/ {
+    text-align: center;
+    border: 1px dashed black;
+    background-color: rgb(203, 211, 209);
 }
 #foto{
     text-align: center;
+}
+.titulo{
+    background-color: rgb(203, 211, 209);
+    color: black;
+    transition: background-color 1.5s ease, transform 1.5s ease;
+}
+.titulo:hover{
+    background-color: rgb(173,230,216);
+    transition: scale(1.1);
+}
+p.fonte{
+    font-family: Verdana;
+}
+ol.fonte{
+    list-style-type: upper-alpha;
+}
+.fundo{
+    background-color: rgb(151, 186, 226);
 }
